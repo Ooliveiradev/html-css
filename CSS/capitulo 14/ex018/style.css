@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /*
+medidas absolutas
+cm, mm, in, px, pt, pc
+
+medidas Relativas
+em, ex, rem, vw, vh, %
+*/
+}
+
+h1 {
+    
+    /* shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    */
+    font: italic bolder 4em "work sans";
+}
+h2 {
+    font: bold 2em "Work Sans"
+}

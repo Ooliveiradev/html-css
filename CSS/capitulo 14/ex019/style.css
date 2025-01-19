@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'lemon';
+    src: url("lemonismDEMO.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'lemon', Tahoma, Geneva, Verdana, sans-serif;
+}
