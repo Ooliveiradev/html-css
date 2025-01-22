@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LINKS</title>
+    <title>midias em html</title>
 </head>
+
 <body>
-    <h1>usando links externos</h1>
-    <h3>voce pode acessar <a href="https://github.com/dadan658" target="_blank">meu github</a></h3>
-    <h1>usando links internos</h1>
-    <h3>essa e minha primeira pagina clique <a href="pg002.html" rel="next">aqui</a> para ir pra segunda</h3>
-    <h2>links para download</h2>
-    <ul>
-        <li><a href="livro/pdf123.pdf" download="pdf123.pdf" type="application/pdf">livro em pdf</a></li>
-        <li><a href="livro/pdf123.rar" download="pdf123.rar" type="application/zip">livro em rar</a></li>
-    </ul>
-    <p title="tambem nao sei kkkkkkkkkk">nao sei oq</p>
+    <h1>imagens dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+<img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>aprender a reproduzir audios em html5</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="media/sapientdream, Slushii - Break My Heart [NCS Release].mp3" type="audio/mpeg">
+        <source src="media/sapientdream, Slushii - Break My Heart [NCS Release].ogg" type="audio/ogg">
+        <source src="media/sapientdream, Slushii - Break My Heart [NCS Release].wav" type="audio/wav"> <!--MUITO PESADO-->
+        <p>infelizmente seu navegador nao e capaz de tocar nossa musica <a href="media/sapientdream, Slushii - Break My Heart [NCS Release].mp3">clique aqui para baixar ela</a></p>
+    </audio>
 </body>
+
 </html>

@@ -1,6 +1,9 @@
-* { /*configuracoes globais das CSS*/
-    height: 100%;
+@font-face {
+    font-family: 'lemon';
+    src: url("lemonismDEMO.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 body {
-    background-image: linear-gradient(180deg, white, blue);
+    font-family: 'lemon', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>usando fontes externas</title>
+    <title>pseudo classes</title>
+    <style>
+        div {
+            background-color: blue;
+            border: 1px solid black;
+            display: inline-block;
+            color: #000000;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+        div:hover {
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
-    <h1>exemplo</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facere magni laudantium qui reiciendis. Corrupti explicabo aliquam natus laboriosam maiores eum consequuntur! Facere consequatur asperiores labore eveniet maxime natus! Deleniti!</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ratione unde libero officia quis totam atque dolor a eius, quo soluta voluptas adipisci veritatis dolorum, in inventore blanditiis aut aliquam?</p>
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
 </body>
 </html>

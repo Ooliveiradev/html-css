@@ -1,26 +1,5 @@
-@charset "UTF-8";
-
-* {
-    /*height: 100%;*/
-}
 p {
-text-align: justify;
-color: #785964;
-font-family: monospace;
-text-shadow: 1px 1px 1px rgba(71, 52, 59, 0.5) ;
-}
-body {
-    background-image: linear-gradient(to right, #07393C, #2C666E, #90DDF0);
-}
-main {
-    background-color: #F0EDEE;
-    width: 500px;
-    margin: auto;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 5px 5px 20px rgba(73, 53, 72, 0.486);
-}
-h1 {
-    color: #0A090C;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 100px;
+    text-indent: 10px                       ;
 }
